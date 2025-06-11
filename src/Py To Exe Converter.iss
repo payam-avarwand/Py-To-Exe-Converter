@@ -1,12 +1,12 @@
 #define MyAppName "Py To Exe Converter"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.2"
 #define MyAppPublisher "Avarwand"
 #define MyAppURL "https://github.com/payam-avarwand/Py-To-Exe-Converter/releases/tag/Py-To-Exe-Converter"
-#define MyAppExeName "Py To Exe Converter 1.0 Portable.exe"
-#define MyAppIcon "D:\Payam Avarwand\My Repos\GitHub\Batch\Sources\Configs and Tools\Python Executor\python.ico"
+#define MyAppExeName "0.exe"
+#define MyAppIcon "D:\Payam Avarwand\My Repos\GitHub\Word-Books\Code\Py To Exe Converter\python.ico"
 #define MyVbsLauncher "Py To Exe Converter_Launcher.vbs"
 #define MyAppIconName "python.ico"
-#define MyAppFileVersion "1.0.2.25"
+#define MyAppFileVersion "1.2.0.66"
 
 [Setup]
 AppId={{Py_To_Exe_Converter.com.yahoo@Avar_Payam}
@@ -21,7 +21,7 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\Avarwand\{#MyAppName}
 DefaultGroupName={#MyAppName}
 UninstallDisplayIcon={app}\icons\{#MyAppIconName}
-OutputDir="D:\Payam Avarwand\My Repos\GitHub\Avarwand\Py To Exe Converter\installer"
+OutputDir="D:\Payam Avarwand\My Repos\GitHub\Avarwand\Py-To-Exe Converter\installer"
 OutputBaseFilename={#MyAppName}-{#MyAppVersion}-Setup
 SetupIconFile={#MyAppIcon}
 SolidCompression=yes
@@ -39,7 +39,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Py To Exe Converter\installer\Py To Exe Converter 1.0 Portable.exe"; DestDir: "{app}\icons"; Flags: ignoreversion
+Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Py-To-Exe Converter\installer\0.exe"; DestDir: "{app}\icons"; Flags: ignoreversion
 Source: "{#MyAppIcon}"; DestDir: "{app}\icons"; Flags: ignoreversion
 
 [Icons]
@@ -107,9 +107,4 @@ begin
     end;
   end;
 end;
-
-
-
-
-
 

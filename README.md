@@ -35,8 +35,6 @@ Before running this software, ensure the following are set up on your system:
    ```bash
    pip install pyinstaller
 
-3. **Python path must be added to the system PATH**
-    It should be like `C:\Users\<YourName>\AppData\Local\Programs\Python\Python312\Scripts`
 
 
 
@@ -55,5 +53,5 @@ Feel free to use, share, and distribute it for personal or commercial use.
 
 ## Contact
 
-Developed by Payam Avarwand,	01.06.2025_
-For questions or contributions, feel free to reach out.
+_Developed by Payam Avarwand,	01.06.2025_
+_For questions or contributions, feel free to reach out._
