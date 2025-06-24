@@ -46,12 +46,12 @@ The final executable file will be saved in a folder named "dist", beside the ori
 
 ## License
 
-This software is released as freeware.
-Feel free to use, share, and distribute it for personal or commercial use.
+This software is released as freeware. <br>
+Feel free to use, share, and distribute it for personal or commercial use. <br>
 © 2025 Avarwand
 
 
 ## Contact
 
-_Developed by Payam Avarwand,	01.06.2025_ | payam_avar@yahoo.com
+_Developed by Payam Avarwand,	01.06.2025_ | payam_avar@yahoo.com <br>
 _For questions or contributions, feel free to reach out._
