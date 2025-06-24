@@ -1,6 +1,6 @@
 END USER LICENSE AGREEMENT (EULA)
 
-This software, named "Py To Exe Converter",  is provided by Avarwand, free of charge for personal and commercial use.
+This software, named "Py To Exe Converter",  is provided by P. Avarwand, free of charge for personal and commercial use.
 
 By installing or using this software, you agree to the following terms:
 

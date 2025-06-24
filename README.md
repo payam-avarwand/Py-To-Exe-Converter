@@ -53,5 +53,5 @@ Feel free to use, share, and distribute it for personal or commercial use.
 
 ## Contact
 
-_Developed by Payam Avarwand,	01.06.2025_
+_Developed by Payam Avarwand,	01.06.2025_ | payam_avar@yahoo.com
 _For questions or contributions, feel free to reach out._
