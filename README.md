@@ -32,8 +32,7 @@ Before running this software, ensure the following are set up on your system:
 
 2. **PyInstaller must be installed**  
    Install it using pip:  
-   ```bash
-   pip install pyinstaller
+   `pip install pyinstaller`
 
 
 
