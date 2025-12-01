@@ -1,56 +1,90 @@
 # Py To Exe Converter
-It is a free, simple and user-friendly GUI application that allows you to convert your Python scripts (`.py`) into
-standalone Windows executables (.exe) using PyInstaller. It is designed for developers, students, and
-enthusiasts who want to package their Python scripts into single-file executables with custom metadata and icons.
+
+**Professional Python to Standalone Windows Executable Builder**
+
+A free, modern, and fully automated GUI tool that converts any Python (`.py`) script into a professional standalone `.exe` file using PyInstaller — with **zero manual setup**, **smart hidden import detection**, **custom icons**, **full metadata**, and a beautiful polished interface.
 
 ---
 
+## Key Features
 
-## Features
+- One-click conversion of `.py` → standalone `.exe`
+- Smart script analysis: **auto-detects hidden imports** (tkinter, PIL, psutil, win32com, etc.)
+- Only enables required imports — keeps your executable small and clean
+- **Automatically installs PyInstaller** if missing
+- Embeds custom `.ico` icons
+- Full Windows version info (Company, Description, Version, Internal Name)
+- Supports **Single File** (`--onefile`) and **Directory** (`--onedir`) modes
+- Windowed (no console) or console applications
+- Add extra files/folders (`--add-data`)
+- Real-time progress bar with percentage
+- Cancel build anytime
+- Modern, compact, centered GUI with yellow title ribbon
+- Color-coded status messages (blue/green/orange/red)
+- Threaded build — GUI stays fully responsive
+- Exit confirmation & placeholder text support
 
-- Convert `.py` files to `.exe` in one click
-- Set metadata such as:
-  - Company Name
-  - File Description
-  - File Version
-  - Internal Name
-- Choose a custom `.ico` icon file
-- Clean and simple interface with progress tracking
-- Automatically generates a hidden version file for PyInstaller
+### Auto-Detected Hidden Imports
+| Library                  | Purpose                          |
+|--------------------------|----------------------------------|
+| `tkinter`                | GUI framework                    |
+| `tkinter.ttk`            | Themed widgets                   |
+| `tkinter.messagebox`     | Message dialogs               	  |
+| `tkinter.filedialog`     | File dialogs                     |
+| `PIL` / `Pillow`         | Image processing                 |
+| `PIL._tkinter_finder`    | Pillow + Tkinter integration     |
+| `psutil`                 | System monitoring                |
+| `win32com`               | Windows COM automation           |
+| `win32com.client`        | COM client support               |
 
-
+---
 
 ## Requirements
 
-Before running this software, ensure the following are set up on your system:
+- Windows 10/11
+- Python 3.6+ installed from [python.org](https://www.python.org/downloads/)  
+  (Important: Do **not** use Microsoft Store version)
+- No manual installation needed — PyInstaller is auto-installed
 
-1. **Python must be downloaded and installed necessarily from** [www.python.org](https://www.python.org/)**, because it:**
-  - Uses normal, unrestricted folders (like `C:\Users\YourName\AppData\Local\Programs\Python\Python312`)
-  - Works out-of-the-box with PyInstaller
-  - Allows `--add-data` to copy `Tcl`/`Tk` folders without issue
-<br>
+---
 
-2. **PyInstaller must be installed**  
-   Install it using pip:  
-   `pip install pyinstaller`
+### Output Example
+```
+Your Project Folder/
+└── MyAwesomeApp/
+    ├── build/           (temporary files)
+    └── dist/
+        └── MyAwesomeApp 2.1 Portable.exe   ← Final executable
+```
 
+---
 
+## Output Naming Format
 
+`<Internal Name> <Major.Minor> Portable.exe`  
+Example: `Calculator 1.5 Portable.exe`
 
-## Output
-
-The final executable file will be saved in a folder named "dist", beside the original .py with such a filename format:
-`<Internal Name> <Product Version> Portable.exe`
-
+---
 
 ## License
 
-This software is released as freeware. <br>
-Feel free to use, share, and distribute it for personal or commercial use. <br>
-© 2025 Avarwand
+**Freeware** – Completely free for personal and commercial use  
+© May 2025 by Avarwand  
+You may freely use, modify, share, and distribute this software.
 
+---
 
-## Contact
+## Author
 
-_Developed by Payam Avarwand,	01.06.2025_ | payam_avar@yahoo.com <br>
-_For questions or contributions, feel free to reach out._
+**Payam Avarwand**  
+Created: 01 June 2025  
+Version 2.0 Enhanced: 01 December 2025  
+
+Email: payam_avar@yahoo.com  
+GitHub Issues & Pull Requests welcome!
+
+---
+
+**Thank you for using Py To Exe Converter 2.0**  
+
+```
