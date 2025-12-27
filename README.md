@@ -48,6 +48,13 @@ A free, modern, and fully automated GUI tool that converts any Python (`.py`) sc
 
 ---
 
+## Output Naming Format
+
+`<Internal Name> <Major.Minor> Portable.exe`  
+Example: `Calculator 1.5 Portable.exe`
+
+---
+
 ### Output Example
 ```
 Your Project Folder/
@@ -56,13 +63,6 @@ Your Project Folder/
     └── dist/
         └── MyAwesomeApp 2.1 Portable.exe   ← Final executable
 ```
-
----
-
-## Output Naming Format
-
-`<Internal Name> <Major.Minor> Portable.exe`  
-Example: `Calculator 1.5 Portable.exe`
 
 ---
 
